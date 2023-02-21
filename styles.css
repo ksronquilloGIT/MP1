@@ -36,7 +36,7 @@
 }
 
 .nav-container a:hover {
-    background-color: rgba(255, 255, 255, .3);
+
     color: red;
 }
 
@@ -46,11 +46,19 @@
 
 
 /* front */
-.front-container img {
-    height: 100%;
-    right: 0;
+.img-col {
+    position: relative;
+    max-height: 100%;
+    overflow: hidden
 }
 
+.img-col img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-left: 2px solid;
+}
 
 
 /* splash carousel */
@@ -86,9 +94,9 @@
 .button-container button {
     border-radius: 30px;
     margin-top: 10px;
-
     height: 100px;
     width: 120px;
+    align-items: center;
 }
 
 .card-container div {
