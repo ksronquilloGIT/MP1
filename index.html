@@ -59,8 +59,8 @@
                         <h2 href="#" class="btn btn-danger">SIGN WITH US</h2>
                     </div>
                 </div>
-                <div class="col-sm-6 img-col">
-                    <img src="Images/WFprinter2.jpg" alt="printer">
+                <div class="col-6 img-col">
+                    <img src="Images/WFprinter.png" alt="printer">
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@
                         <a class="nav-link nav" href="#"> Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Product and Services</a>
+                        <a class="nav-link" href="#products"> Product and Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"> Contact Us</a>
@@ -143,10 +143,9 @@
         </div>
         <br>
         <!--Products-->
-        <div class="row products">
-            <h2 class="text-bg-danger text-center p-2 ">This is what we Do</h2>
-            <div class="col-sm product-col ">
-                <br>
+        <div class="container products-container" id="products">
+            <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">Product category</h4>
+            <div class="row products">
                 <!-- Product Card-->
                 <div class="row row-cols-2 row-cols-md-4 g-4 ">
                     <div class="col">
@@ -216,9 +215,10 @@
                                 </button>
                             </div>
                             <div class="card-body">
-                                <h2 class="card-title">Laser Cutting and Engraving</h2>
+                                <h2 class="card-title">Signages - Print and Fabrication</h2>
                                 <br>
-                                <h5 class="card-text">We provide Acrylic Laser Cutting or Engraving Services</h5>
+                                <h5 class="card-text">We provide different type of signages from Panaflex to Acrylic
+                                    Build-up.</h5>
                             </div>
                         </div>
                     </div>
@@ -271,11 +271,79 @@
                 </div>
                 <br>
             </div>
-        </div>
-        <br>
-        <div class="row product-details">
-            <div class="col-sm Workmanship bg-warning-subtle" style="height: 400px;">
-                <h2>all Product details</h2>
+
+            <br>
+            <!--AllProducts-->
+            <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">Our product details</h4>
+            <div class="row product-details" id="product-details">
+                <div class="col-sm ">
+                    <div class="card mb-3 card-container border-0"><!--card details-->
+                        <div class="row g-0">
+                            <div class="col-sm-4">
+                                <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.6435-9/33036178_343683356156693_7369266592548388864_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFPZWLCwh5FkrGYTqefW3ri3F1Z7niSovPcXVnueJKi8--2D0MiECHAkcUmfQ731To&_nc_ohc=n_n7VqXhvtIAX_hHttA&tn=9a1lcctDnzj6Y0Yf&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfDevBCaI_HXEZ3qbFNPDNDBgVt-PMxoj-ElDY-sRSGtyA&oe=641C8510"
+                                    class="img-fluid rounded-start-circle shadow-lg" alt="...">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="card-body">
+                                    <h2 class="card-title text-start">Print while you wait</h2>
+                                    <h5 class="card-text text-start">RBA Graphics Sign Advertising Corp. is a developing
+                                        firm that
+                                        has been around since 2016. It provides cost-effective yet high-quality
+                                        solutions for your
+                                        printing needs, whether they be for your business, events, or personal
+                                        requirements.
+
+                                        Are you looking for a focal point for your celebrations? Whether it's a
+                                        birthday, wedding, christening, or anniversary,
+                                        we offer tarpaulin prints for all events. also useful for labeling, advertising,
+                                        or signage. As you wait, we can print
+                                        your orders (for ready-to-print artwork).</h5>
+
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                        <h5 class="card-text">Click to see more</h5>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#print"> SEE ITEMS
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--modal-->
+                    <div class="modal fade" id="print" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li>Regular Tarpaulin Printing</li>
+                                        <Li>Billboard Printing/ Blockout Tarps</Li>
+                                        <li>Billboard Printing/ Blockout Tarps</li>
+                                        <li>Board-up Printing</li>
+                                        <li>X-Banner/ Pull Up Banner</li>
+                                        <li>Election Tarps / Campaign Materials</li>
+                                        <li>Backdrop</li>
+                                        <li>Tarpaulin Standee</li>
+                                        <li>Tarpaulin Standee /Signage</li>
+                                        <li>Framed Tarpaulin Lamp Post</li>
+                                        <li>Streamers</li>
+                                        <li>Promotional Tarps</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
@@ -285,54 +353,57 @@
             </div>
         </div>
         <br>
-        <div class="row history-container">
-            <div class="col">
-                <!-- About-->
-                <h2 class="text-center">A Simple Idea to a Thriving Company </h2>
-                <br>
-                <h5 class="fw-normal text-center">RBA Graphics Sign Advertising Corp. is offering
-                    great customer
-                    service at
-                    competitive prices. We
-                    started with the
-                    founder’s interest in graphics and prints and the idea of gift-giving. With these passions, it
-                    eventually ventured into
-                    personalized gifts on a small scale. High-volume orders and more demands had finally given
-                    us the opportunity to
-                    officially start small but grow steadily in expertise and experience.</h5>
+        <div class="container history-container " id="history">
+            <div class="row history-container ">
+                <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">A Simple Idea to a Thriving Company
+                </h4>
+                <div class="col">
+                    <!-- About-->
+                    <br>
+                    <h5 class="fw-normal text-center">RBA Graphics Sign Advertising Corp. is offering
+                        great customer
+                        service at
+                        competitive prices. We
+                        started with the
+                        founder’s interest in graphics and prints and the idea of gift-giving. With these passions, it
+                        eventually ventured into
+                        personalized gifts on a small scale. High-volume orders and more demands had finally given
+                        us the opportunity to
+                        officially start small but grow steadily in expertise and experience.</h5>
 
-                <h5 class="fw-normal text-center">Fotoshow was launched and registered in 2016. At first,
-                    we offered
-                    a variety
-                    of digital prints
-                    and personalization
-                    products and services. Then eventually we shifted our main focus to large-format printing and
-                    signage. And now, Fotoshow
-                    offers only the highest quality yet inexpensive services in the areas of prints, signage, and
-                    giveaways.</h5>
+                    <h5 class="fw-normal text-center">Fotoshow was launched and registered in 2016. At first,
+                        we offered
+                        a variety
+                        of digital prints
+                        and personalization
+                        products and services. Then eventually we shifted our main focus to large-format printing and
+                        signage. And now, Fotoshow
+                        offers only the highest quality yet inexpensive services in the areas of prints, signage, and
+                        giveaways.</h5>
 
-                <h5 class="fw-normal text-center">Our close-knit and professional team of administration,
-                    staff, and
-                    personnel
-                    provides a full
-                    customer service that keeps
-                    our customers coming back to us for their needs. Our satisfied clients are our greatest help
-                    in our marketing campaign.
-                    And their feedback is our greatest gift to better improve our services. As a testament, we have
-                    now been in service for
-                    more than 5 years.</h5>
+                    <h5 class="fw-normal text-center">Our close-knit and professional team of administration,
+                        staff, and
+                        personnel
+                        provides a full
+                        customer service that keeps
+                        our customers coming back to us for their needs. Our satisfied clients are our greatest help
+                        in our marketing campaign.
+                        And their feedback is our greatest gift to better improve our services. As a testament, we have
+                        now been in service for
+                        more than 5 years.</h5>
 
-                <h5 class="fw-normal text-center">We value our clients. And with that in mind, we don’t
-                    just meet
-                    customer
-                    satisfaction; we also do
-                    our best to exceed it.
-                    There is nothing too big or too small for us; every client is unique and valuable. We exert all
-                    our efforts and
-                    creativity to provide customized services to our clients.</h5>
+                    <h5 class="fw-normal text-center">We value our clients. And with that in mind, we don’t
+                        just meet
+                        customer
+                        satisfaction; we also do
+                        our best to exceed it.
+                        There is nothing too big or too small for us; every client is unique and valuable. We exert all
+                        our efforts and
+                        creativity to provide customized services to our clients.</h5>
+                </div>
             </div>
         </div>
-        <div class="row row-cols-2 row-cols-sm-2 ">
+        <div class="row row-cols-1 row-cols-sm-3 ">
             <div class="col">
                 <div class="card card-container border-0">
                     <div class="button-container">
