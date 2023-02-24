@@ -2,33 +2,27 @@
 
 .header-container {
     padding: 10px 20px;
-    margin: 0;
-
+    margin: 2px;
 }
 
 .header-col-1 {
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #888888 inset;
-    vertical-align: middle;
-    display: flex;
+    text-align: right;
 }
 
 .header-col-1 img {
-    height: 50px;
+    max-height: 100px;
 }
 
+
 .header-col-2 {
+    text-align: left;
     margin: auto;
-    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 5px 5px 5px #888888 inset;
 
 }
 
 .header-col-2 img {
-
     height: 25px;
     margin: 10px;
 }
@@ -56,8 +50,8 @@
 /* Navigation/Title bar */
 .navbar,
 .title-banner,
-.header-container {
-    box-shadow: 5px 5px 20px #888888;
+{
+box-shadow: 5px 5px 20px #888888;
 }
 
 
