@@ -1,19 +1,18 @@
 /* header dontainer */
 
-
-
-
 .header-container {
-    padding: 0;
+    padding: 10px 20px;
     margin: 0;
-    height: 50px;
-    top: 10px;
 
 }
 
 .header-col-1 {
-    border: 2px solid black;
-    border-radius: 5px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #888888 inset;
+    vertical-align: middle;
+    display: flex;
 }
 
 .header-col-1 img {
@@ -21,21 +20,26 @@
 }
 
 .header-col-2 {
-    display: inline-flex;
-    justify-content: right;
-
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #888888 inset;
 
 }
+
+.header-col-2 img {
+
+    height: 25px;
+    margin: 10px;
+}
+
 
 .header-col-2 a:hover {
     background-color: rgba(255, 255, 255, .3);
     /* need to adjust */
 }
 
-.header-col-2 img {
-    height: 25px;
-    margin: 10px;
-}
+
 
 /* Navigation */
 .nav-container a {
