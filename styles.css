@@ -103,9 +103,12 @@
 
 }
 
+
+
 /* Banners*/
 .title-banner {
     top: 50px;
+    border-radius: 20px;
 }
 
 /* Products card */
@@ -134,14 +137,15 @@
 
 
 
-
-
-
 .card-container .card-title {
     color: rgb(255, 0, 0);
 
 }
 
+.card-title {
+    color: rgb(255, 0, 0);
+
+}
 
 .card-container img:hover {
     transform: scale(0.9);
@@ -149,13 +153,44 @@
 }
 
 
-
-
-
 /* Products and services */
 
 .card-container img {
-
     color: antiquewhite;
+}
 
+/* About us */
+.aboutus-col {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden
+}
+
+.aboutus-img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+/* Contact Us */
+.contact-container {
+    background-image: url('Images/Red_phone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 20px;
+}
+
+.contact-data {
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.contact-data form {}
+
+.contact-map {
+    padding: 100px;
 }
