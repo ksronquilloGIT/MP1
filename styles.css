@@ -12,37 +12,40 @@
 
 .header-col-2 {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: center;
 }
 
+.header-col-2 a {
+    padding: 5px;
+    color: aliceblue;
+}
 
 .header-col-2 {
-    margin-right: 20px;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    margin-right: 5px;
     text-align: right;
+    font-weight: 300;
+    color: #000000;
+    border-radius: 0px 20px;
+    box-shadow: 8px 8px 10px #888888;
 }
 
 
 .header-col-3 {
-    display: block;
-    justify-content: right;
-
     border-radius: 0px 20px;
-    box-shadow: 5px 5px 5px #888888;
-
+    box-shadow: 8px 8px 10px #888888;
+    align-items: center;
 }
 
 .header-col-3 img {
-    height: 30px;
+    height: 25px;
     margin: 10px;
 }
 
 
 .header-col-3 a:hover {
     background-color: rgba(255, 255, 255, .3);
-    /* need to adjust */
+
 }
 
 /* Navigation */
@@ -67,6 +70,10 @@
 
 .front-container {
     position: relative;
+}
+
+.front-container h4 {
+    text-align: right;
 }
 
 .img-col {
@@ -193,6 +200,10 @@ body .card-text {
 
 }
 
+.contact-form {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
 
 
 /* Footer Partners */
