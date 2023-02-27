@@ -173,7 +173,9 @@ body .card-text {
 }
 
 
-/* About us .aboutus-img {
+/* About us*/
+
+.aboutus-img-div .aboutus-img {
     float: left;
     height: 300px;
     margin: 10px;
@@ -183,8 +185,6 @@ body .card-text {
     box-shadow: 8px 8px 10px #888888;
     border-radius: 10px;
 }
-*/
-
 
 /* Contact Us */
 .contact-container {
