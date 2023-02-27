@@ -164,16 +164,6 @@
     transition: all 0.1s ease-out;
 }
 
-/* Products and services */
-
-.card-container img {
-    color: antiquewhite;
-}
-
-.accordian {
-    color: aquamarine;
-}
-
 /* About us */
 body .card-text {
     text-align: justify;
