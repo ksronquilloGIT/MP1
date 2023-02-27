@@ -19,6 +19,7 @@
 .header-col-2 a {
     padding: 5px;
     color: aliceblue;
+    font-weight: 500;
 }
 
 .header-col-2 {
@@ -35,11 +36,13 @@
     border-radius: 0px 20px;
     box-shadow: 8px 8px 10px #888888;
     align-items: center;
+    padding: 10px;
 }
 
 .header-col-3 img {
     height: 25px;
     margin: 10px;
+
 }
 
 
@@ -174,7 +177,6 @@ body .card-text {
 
 
 /* About us*/
-
 .aboutus-img-div .aboutus-img {
     float: left;
     height: 300px;
