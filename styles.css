@@ -35,7 +35,6 @@
     color: rgb(0, 0, 0);
 }
 
-
 .header-col-3 {
     border-radius: 0px 20px;
     box-shadow: 8px 8px 10px #888888;
@@ -48,7 +47,6 @@
     padding: 10px 20px;
 
 }
-
 
 .header-col-3 a:hover {
     transition: all 0.3s ease;
@@ -160,9 +158,10 @@
 
 }
 
-.card-container img:hover {
-    transform: scale(0.9);
-    transition: all 0.1s ease-in;
+.card-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 10px #888888;
+    transition: all 0.1s ease-out;
 }
 
 /* Products and services */
@@ -181,7 +180,6 @@ body .card-text {
 }
 
 
-/* About us*/
 .aboutus-card {
     box-shadow: 8px 8px 10px #888888;
     border-radius: 20px;
@@ -206,6 +204,7 @@ body .card-text {
 
 .aboutus-foot-col span {
     margin: 10px;
+    filter: invert(1);
 }
 
 /* Contact Us */
