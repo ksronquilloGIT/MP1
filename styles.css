@@ -150,8 +150,6 @@
 
 }
 
-
-
 .card-container button:hover {
     transform: scale(1.1);
     box-shadow: 8px 8px 10px #888888;
@@ -299,7 +297,7 @@ body .card-text {
 
 /* modals */
 
-.modal h2,
+.modal h1,
 .modal h4 {
     color: red;
 }
