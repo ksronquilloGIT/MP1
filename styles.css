@@ -224,9 +224,16 @@ body .card-text {
 
 }
 
-.contact-form {
-    color: rgb(0, 0, 0);
-    font-size: larger;
+.mapcard img {
+    filter: invert(1);
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.contactus-map .card-container {
+    margin-top: 400px;
 }
 
 
@@ -300,6 +307,16 @@ body .card-text {
 .modal h1,
 .modal h4 {
     color: red;
+}
+
+.modal iframe {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
 }
 
 /* gallery */

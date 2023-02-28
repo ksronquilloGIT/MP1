@@ -481,6 +481,7 @@
             <div class="row history-container">
                 <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">Get in touch with Us
                 </h4>
+                <!-- Contact form-->
                 <div class="col-8 contact-data ">
                     <form class="form-control contact-form bg-white bg-opacity-25 border-dark border">
                         <label class="h4 ">Let us know how we can help by filling out the inquiry
@@ -558,8 +559,35 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-4 contact-map">
-                    <h4>map here</h4>
+                <!-- map -->
+                <div class="col-4 contactus-map bg-opacity-25">
+                    <div class="card card-container border-0 bg-opacity-25">
+                        <div class="button-container bg-opacity-25">
+                            <button class="btn bg-success " data-bs-toggle="modal" data-bs-target="#contactus-map">
+                                <img src="Images/map-5-64.png">
+                            </button>
+                        </div>
+                        <div class="card-body mapcard">
+                            <h2 class="card-title">Find Us at Google Map</h2>
+                            <br>
+                            <div>
+                                <div><img src="images/map-marker-2-64.png" alt=""></div>
+                                <h5 class="card-text">6150 Gen. T. De Leon Road, Valenzuela,
+                                    Philippines</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <div><img src="images/message-outline-64.png" alt=""></div>
+                                <h5 class="card-text">rbalianzagraphics @yahoo.com</h5>
+                            </div>
+                            <br>
+                            <div>
+                                <div><img src="images/phone-39-64.png" alt=""></div>
+                                <h5 class="card-text">282-415731</h5>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <br>
             </div>
@@ -1484,6 +1512,38 @@
         </div>
     </div>
 </div>
+<!--Map-->
+<div class="modal fade" id="contactus-map" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="h2">Visit our Shop</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body form-control">
+                <div class="container-fluid gallery-container">
+                    <div class="row">
+                        <div class="column">
 
+                        </div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.2156235472803!2d121.00175108864514!3d14.687126975322144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b75c3124aa8f%3A0xe5bd518317671788!2sRB%20ALIANZA%20GRAPHIC%20SIGN%20ADVERTISING%20CORP.!5e0!3m2!1sen!2sph!4v1677610136846!5m2!1sen!2sph"
+                    width="" height="" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#contactus-modal">
+                        Inquire Now
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </html>
