@@ -129,7 +129,6 @@
     height: 100%;
     width: 100%;
     padding: 10px;
-
 }
 
 .button-container button {
@@ -151,16 +150,34 @@
 
 }
 
-.card-title {
-    color: rgb(255, 0, 0);
 
-}
 
 .card-container button:hover {
     transform: scale(1.1);
     box-shadow: 8px 8px 10px #888888;
     transition: all 0.1s ease-out;
 }
+
+/* Mission Vission */
+.button-container-mv img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.card-container-mv div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-container-mv button:hover {
+    cursor: default;
+}
+
 
 /* About us */
 body .card-text {
@@ -221,8 +238,6 @@ body .card-text {
     border-bottom: solid 1px rgb(255, 0, 0);
 }
 
-
-
 .partners-brand .white {
     filter: invert(1);
     background-blend-mode: multiply;
@@ -264,7 +279,6 @@ body .card-text {
 .footer-some img:hover {
     filter: invert(1);
     background-color: rgba(255, 0, 0, 0.3);
-
 }
 
 .end-footer-list a {
@@ -274,9 +288,15 @@ body .card-text {
 
 .end-footer-list h4 {
     color: aliceblue;
-
 }
 
 .end-footer-list a:hover {
     color: rgb(255, 0, 0);
+}
+
+/* modals */
+
+.modal h2,
+.modal h4 {
+    color: red;
 }
