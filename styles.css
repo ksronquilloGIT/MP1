@@ -233,6 +233,9 @@ body .card-text {
 
 
 /* Footer Partners */
+.partners-brand {
+    box-shadow: -8px -8px 10px #888888;
+}
 
 .partners-brand h4 {
     border-bottom: solid 1px rgb(255, 0, 0);
@@ -299,4 +302,51 @@ body .card-text {
 .modal h2,
 .modal h4 {
     color: red;
+}
+
+/* gallery */
+.gallery-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery-container .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.gallery-container .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.gallery-container .column img:hover {
+    filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-container .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* column stack */
+@media screen and (max-width: 600px) {
+    .gallery-container .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .gallery-container .column img {
+        filter: grayscale(0) brightness(1);
+    }
 }
