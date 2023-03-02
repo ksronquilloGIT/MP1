@@ -219,8 +219,8 @@ body .card-text {
 }
 
 .contact-data {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 100px;
+    padding-left: 20px;
 
 }
 
@@ -233,7 +233,10 @@ body .card-text {
 }
 
 .contactus-map .card-container {
-    margin-top: 400px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 
