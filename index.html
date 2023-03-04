@@ -22,12 +22,12 @@
 <body>
     <Header id="home">
         <!--Header band-->
-        <div class="container header-container ">
+        <div class="container-fluid header-container ">
             <div class="row">
                 <div class="col header-col-1  ">
                     <img src="Images/rba_logo2.png">
                 </div>
-                <div class="col header-col-2 bg-danger">
+                <div class="col header-col-2 ">
                     <a href="#contactus" class="list-group-item">6150 Gen. T. De Leon Road, Valenzuela,
                         Philippines</a>
                     </a>
@@ -36,7 +36,7 @@
                             282415731</a>
                     </a>
                 </div>
-                <div class="col-3 header-col-3 nav-container bg-danger  ">
+                <div class="col-3 header-col-3 nav-container ">
                     <ul class="nav justify-content-center ">
                         <li class="nav-item">
                             <a href="https://www.facebook.com/RBAlianzaGraphics" Target="_blank"><img
@@ -60,16 +60,15 @@
         <!--front splash-->
         <div class="container front-container">
             <div class="row mt-5 mb-5">
-                <div class="col card text-end border-danger bg-body-secondary border-3">
+                <div class="col card text-end border-3">
                     <div class="card-body">
-                        <h1 class="card-title text-danger text">Does your Brand need some love? let us know</h1>
+                        <h1 class="card-title text-end">Does your Brand need some love? let us know</h1>
                         <h4 class="card-text text-end">we got all your advertising needs here.</h4>
                         <h4 class="card-text text-end">we got you covered</h4>
                         <BR></BR> <BR></BR>
-                        <h5> LET US WORK WITH IT. </h5>
-
-                        <a class="btn btn-danger btn-lg" href="#contactus" role="button">SIGN WITH US!</a>
-                        <a class="btn btn-danger btn-lg" href="#gallery" role="button" data-bs-toggle="modal"
+                        <h1 class="card-title text-end"> LET US WORK WITH IT. </h1>
+                        <a class="btn btn-lg" href="#contactus" role="button">SIGN WITH US!</a>
+                        <a class="btn btn-lg" href="#gallery" role="button" data-bs-toggle="modal"
                             data-bs-target="#gallery">SEE GALLERY</a>
                     </div>
                 </div>
@@ -79,18 +78,18 @@
             </div>
         </div>
         <br>
-        <!--Main Nav-->
-        <nav class="navbar navbar-expand-md bg-black sticky-top justify-content-center ">
+        <!--Main Navigation-->
+        <nav class="navbar navbar-expand-md  sticky-top justify-content-center ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon bg-danger"></span>
+                <span class="navbar-toggler-icon navbar border-1 border-white"></span>
             </button>
             <div class="collapse nav-container navbar-collapse justify-content-center" id="collapsibleNavbar">
                 <ul class="nav nav-group">
                     <li class="nav-item">
-                        <a class="nav-link nav" href="#home"> Home</a>
+                        <a class="nav-link" href="#home"> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav" href="#" data-bs-toggle="modal" data-bs-target="#gallery"> Gallery</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#gallery"> Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#products"> Product and Services</a>
@@ -170,9 +169,9 @@
         </div>
         <br>
         <!--Products-->
-        <div class="container products-container" id="products">
+        <div class="container-fluid products-container g-0" id="products">
+            <h4 class="title-banner p-2 sticky-top ">Main Services</h4>
             <div class="row products">
-                <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">Main Services</h4>
                 <!-- Product Card-->
                 <div class="row row-cols-2 row-cols-md-4 g-4 ">
                     <div class="col card-col">
@@ -245,7 +244,7 @@
                             <button class="accordion-button collapsed text-center d-block p-0 " type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                <h2 class="text-danger "> &lt Click to See More other
+                                <h2> &lt Click to See More other
                                     Products &gt
                                 </h2>
                             </button>
@@ -331,10 +330,10 @@
                 <br>
             </div>
         </div>
-        <br>
+
         <!-- About Us-->
-        <div class="container" id="aboutus">
-            <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">A Simple Idea to a Thriving
+        <div class="container-fluid g-0" id="aboutus">
+            <h4 class="title-banner p-2 sticky-top ">A Simple Idea to a Thriving
                 Company
             </h4>
             <div class="card g-sm-3 ">
@@ -345,7 +344,7 @@
                             <div class="aboutus-img-div">
                                 <img class="aboutus-img" src="Images/about_img.jpg" alt="">
                             </div>
-                            <h5 class=" card-text">RBA Graphics Sign Advertising Corp. is offering
+                            <h5 class="card-text">RBA Graphics Sign Advertising Corp. is offering
                                 great customer
                                 service at
                                 competitive prices. We
@@ -404,12 +403,12 @@
                                                 src="/images/check_small_" alt=""></span>
                                     </div>
                                     <div>
-                                        <h5>We value our clients.</h5>
+                                        <h5 class="card-text">We value our clients.</h5>
                                     </div>
                                     <span class="badge rounded-pill text-bg-danger"><img class="img-fluid "
                                             src="/images/check_small" alt=""></span>
                                     <div>
-                                        <h5>We do our best to exceed our customers expectations.</h5>
+                                        <h5 class="card-text">We do our best to exceed our customers expectations.</h5>
                                     </div>
                                 </div>
                             </div>
@@ -493,17 +492,16 @@
                 </div>
             </div>
         </div>
-        <br>
+
         <!-- Contact Us-->
-        <div class="container contact-container " id="contactus">
+        <div class="container-fluid contact-container g-0 " id="contactus">
+            <h4 class="title-banner p-2 sticky-top ">Get in touch with Us
+            </h4>
             <div class="row history-container">
-                <h4 class="title-banner text-bg-danger text-center p-2 sticky-top ">Get in touch with Us
-                </h4>
                 <!-- Contact form-->
-                <div class="col-12 contact-data ">
-                    <form class="form-control contact-form bg-white bg-opacity-25 border-dark border">
-                        <label class="h4 ">Let us know how we can help by filling out the inquiry
-                            form.</label>
+                <div class="col-8 contact-data ">
+                    <form class="form-control contact-form text-center">
+                        <label class="h2 card-title ">Please Fill in your inquiry.</label>
                         <br><br>
                         <div class="input-group">
                             <div class="form-floating mb-3">
@@ -542,7 +540,8 @@
                         </div>
                         <br>
                         <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <select class="form-select form-control" id="floatingSelect"
+                                aria-label="Floating label select example">
                                 <option selected>Select</option>
                                 <option value="1">Tarpaialin Printing</option>
                                 <option value="2">Large format Print</option>
@@ -577,7 +576,7 @@
                     </form>
                 </div>
                 <!-- map -->
-                <div class="col contactus-map bg-opacity-25">
+                <div class="col-4 contactus-map bg-opacity-25">
                     <div class="card  bg-white bg-opacity-50 card-container border-0">
                         <div class="button-container bg-opacity-25">
                             <button class="btn bg-success " data-bs-toggle="modal" data-bs-target="#contactus-map">
@@ -610,14 +609,12 @@
             </div>
         </div>
 
-        <br>
-        <!--- Partners-->
-
-        <div class="container partners-brand " id="partners">
-            <div class="row">
-                <h4 class=" bg-black text-white text-center top-0 sticky-top m-0 p-2 ">Our Partners
-                </h4>
-                <div class="col-sm bg-black partners-col">
+        <!-- Partners-->
+        <div class="container-fluid partners-container g-0" id="partners">
+            <h4 class="title-banner p-2 sticky-top ">Our Partners
+            </h4>
+            <div class="row partners-brand">
+                <div class="col-sm partners-col ">
                     <img src="company_brand\brand-shakleton.png" alt="">
                     <img src="company_brand\brand-sierra.webp" alt="">
                     <img src="company_brand\brand-zabana_black.png" alt="">
@@ -641,56 +638,57 @@
                     <img src="company_brand\files.txt" alt="">
                     <br><br>
                 </div>
+                <br>
             </div>
-
         </div>
+        <br>
     </main>
     <br>
     <!-- Footer-->
     <footer>
-        <div class="container-fluid end-footer bg-black">
+        <div class="container-fluid end-footer">
             <div class="row ">
                 <br><br>
                 <div class="col-sm-4">
                     <div class="list-group list-group-flush end-footer-list">
-                        <h4 class="list-group-item bg-black border-secondary p-0">Page links</h4>
-                        <a href="#home" class="list-group-item bg-black border-0 p-0">Home</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <h4 class="list-group-item p-0">Page links</h4>
+                        <a href="#home" class="list-group-item border-0 p-0">Home</a>
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#gallery">Gallery</a>
-                        <a href="#products" class="list-group-item bg-black border-0 p-0">Product and
+                        <a href="#products" class="list-group-item border-0 p-0">Product and
                             Services</a>
-                        <a href="#aboutus" class="list-group-item bg-black border-0 p-0">Abaout Us</a>
-                        <a href="#contactus" class="list-group-item bg-black border-0 p-0">Contact Us</a>
-                        <a href="#partners" class="list-group-item bg-black border-0 p-0">Partners</a>
+                        <a href="#aboutus" class="list-group-item border-0 p-0">Abaout Us</a>
+                        <a href="#contactus" class="list-group-item border-0 p-0">Contact Us</a>
+                        <a href="#partners" class="list-group-item border-0 p-0">Partners</a>
                     </div>
                 </div>
                 <div class="col-sm-4 ">
-                    <div class="list-group list-group-flush end-footer-list">
-                        <h4 class="list-group-item bg-black border-secondary p-0">Products and services
-                        </h4>
 
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                    <div class="list-group list-group-flush end-footer-list">
+                        <h4 class="list-group-item p-0">Products and services
+                        </h4>
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#wprint">Tarpaulin
                             Printing</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#lprint">Large Format
                             Prints</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#sinage">Signages
                             Fabrication</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#acrylic">Laser Cutting and
                             Engraving</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#sticker">Sticker Printing/
                             Cutting</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#gifts">Gifts and
                             Giveaways</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#others">Other Printing
                             Services</a>
-                        <a href="#" class="list-group-item bg-black border-0 p-0" data-bs-toggle="modal"
+                        <a href="#" class="list-group-item border-0 p-0" data-bs-toggle="modal"
                             data-bs-target="#promos">Promos and Discounts
                             Services</a>
 
@@ -698,13 +696,13 @@
                 </div>
                 <div class="col-sm-4 end-footer-list">
                     <div class="list-group list-group-flush ">
-                        <h4 class="list-group-item bg-black border-secondary p-0">News Letter
+                        <h4 class="list-group-item p-0">News Letter
                         </h4>
                         <br>
                         <div class="input-group input-group-lg pb-2">
                             <input type="email" class="form-control" aria-label="Sizing example input"
                                 aria-describedby="inputGroup-sizing-lg" placeholder="Your Email Here">
-                            <input type="submit" class="btn btn-outline-danger border-1" type="button"
+                            <input type="submit" class="btn btn-outline-light border-1" type="button"
                                 aria-valuetext="sasasa" id="button-addon1" value="Sign Up"
                                 onclick="alert('Thank you for Signing Up')">
                         </div>
@@ -723,16 +721,17 @@
                                         Target="_blank"></a>
                             </li>
                         </ul>
-                        <h4 class="list-group-item bg-black border-0 p-0">Connect with us</h4>
+                        <h4 class="list-group-item border-0 p-0">Connect with us</h4>
                         <br> <br>
-                        <a href="https://www.facebook.com/ronquillo.kris"
-                            class="list-group-item bg-black border-0 p-0">All Rights Reserve @2023
+                        <a href="https://www.facebook.com/ronquillo.kris" class="list-group-item border-0 p-0">All
+                            Rights Reserve @2023
                             Webmaster KSRonquillo</a>
                     </div>
                     <br>
                 </div>
 
             </div>
+        </div>
     </footer>
 </body>
 <!--Product Modal------------------------------->
