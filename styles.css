@@ -1,0 +1,439 @@
+/* header dontainer 
+colors
+#FFFFFF #FFE6E1 #FE947D #E5502E #49180D
+*/
+
+
+.card-text {
+    color: #49180D;
+}
+
+.card-title {
+    color: #E5502E;
+}
+
+.list-group-item {
+    color: #FE947D;
+}
+
+/* gen */
+
+.header-container {
+    border-bottom: 2px solid black;
+}
+
+.header-col-1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-col-1 img {
+    max-height: 50px;
+
+}
+
+.header-col-2,
+.header-col-3 {
+    background-color: #E5502E;
+}
+
+.header-col-2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-col-2 {
+    margin: 20px;
+    margin-right: 10px;
+    text-align: right;
+    color: #000000;
+    border-radius: 0px 20px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.header-col-2 a {
+    padding: 5px;
+    color: aliceblue;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header-col-2 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.header-col-3 {
+    margin: 20px 0px;
+    border-radius: 0px 20px;
+    box-shadow: 0px 0px 10px #888888;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.header-col-3 img {
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.header-col-3 img:hover {
+    filter: invert(1);
+    transform: scale(.9);
+    transition: all 0.1s ease-out;
+}
+
+
+/* Navigation */
+.nav-container a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/* Navigation/Title bar */
+.navbar,
+.title-banner {
+    box-shadow: 0px 0px 10px #888888;
+    background-color: #E5502E;
+
+    text-align: center;
+    border: 1px solid #49180D;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFE6E1;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .nav-link:hover {
+    color: #49180D;
+}
+
+/* Front Splash */
+.front-container .card {
+    background-color: #49180D;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.front-container .card-text {
+    color: #FE947D
+}
+
+.front-container .btn {
+    color: #FFE6E1;
+    font-weight: 500;
+    border: 1px solid #FFE6E1;
+    border-color: #FFE6E1;
+}
+
+.front-container .btn:hover {
+    background-color: #FFE6E1;
+    color: #49180D;
+}
+
+.front-container {
+    position: relative;
+}
+
+.front-container h4 {
+    text-align: right;
+}
+
+.img-col {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden
+}
+
+.img-col img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-left: 2px solid;
+}
+
+/* carousel */
+.carousel-container {
+    border: 1px solid #888888;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+/* Banners*/
+.title-banner {
+    top: 50px;
+
+}
+
+/* Products card */
+.button-container img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.button-container button {
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 100px;
+    width: 120px;
+    align-items: center;
+}
+
+.card-container div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.card-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #888888;
+    transition: all 0.1s ease-out;
+}
+
+/* Products accordian */
+.accordion h2 {
+    color: #E5502E;
+}
+
+/* Mission Vission */
+.button-container-mv img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.card-container-mv div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-container-mv button:hover {
+    cursor: default;
+}
+
+
+/* About us */
+body .card-text {
+    text-align: justify;
+}
+
+
+.aboutus-card {
+    box-shadow: 8px 8px 10px #888888;
+
+    background-color: #FFE6E1;
+
+}
+
+.aboutus-card .card-text {
+
+    color: #49180D;
+}
+
+.aboutus-img-div .aboutus-img {
+    float: left;
+    height: 250px;
+    margin: 10px;
+    padding: 0;
+    border: 0;
+    align-self: center;
+    box-shadow: 8px 8px 10px #888888;
+
+}
+
+.aboutus-foot-col {
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+
+.aboutus-foot-col span {
+    margin: 10px;
+    filter: invert(1);
+}
+
+/* Contact Us */
+.contact-container {
+    background-image: url('Images/Red_phone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+
+}
+
+.contact-data {
+    padding: 20px;
+    border-color: #FE947D80;
+}
+
+.contact-data .form-control {
+    background-color: #FFE6E100;
+    color: #49180D;
+    font-weight: 500;
+    font-size: 20px;
+    border-color: #FE947D80;
+
+}
+
+.mapcard img {
+    filter: invert(1);
+    height: 30px;
+    float: left;
+    margin: auto;
+}
+
+.contactus-map .card-container {
+
+    margin-top: 50px;
+
+
+}
+
+
+/* Footer Partners */
+.partners-brand {
+    background-color: #FFFFFF;
+}
+
+.partners-brand h4 {
+    border-bottom: solid 1px rgb(255, 0, 0);
+}
+
+
+
+.partners-brand img {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+.partners-col {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Footer Partners */
+.end-footer {
+    border-top: solid 1px rgb(255, 0, 0);
+}
+
+.end-footer {
+    padding: 20px 20px;
+    background-color: #49180D;
+}
+
+.end-footer-list {
+    padding: 0px 50px;
+
+}
+
+.end-footer .list-group-item {
+    background-color: #49180D;
+
+}
+
+
+.footer-some img {
+    height: 50px;
+    padding: 10px 20px;
+
+    transition: all 0.3s ease;
+}
+
+
+.footer-some img:hover {
+    filter: invert(1);
+
+}
+
+
+
+.end-footer-list h4 {
+    color: #E5502E;
+}
+
+.end-footer-list a:hover {
+    color: #E5502E;
+}
+
+/* modals */
+
+.modal h1,
+.modal h4 {
+    color: #E5502E;
+}
+
+.modal iframe {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+/* gallery */
+.gallery-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery-container .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.gallery-container .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.gallery-container .column img:hover {
+    filter: grayscale(0);
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-container .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* column stack */
+@media screen and (max-width: 600px) {
+    .gallery-container .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .gallery-container .column img {
+        filter: grayscale(0) brightness(1);
+    }
+}
