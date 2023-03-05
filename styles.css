@@ -290,7 +290,6 @@ body .card-text {
     font-weight: 500;
     font-size: 20px;
     border-color: #FE947D80;
-
 }
 
 .mapcard img {
@@ -301,14 +300,29 @@ body .card-text {
 }
 
 .contactus-map .card-container {
-
     margin-top: 50px;
+}
 
+.contact-data .btn {
+    color: #E5502E;
+    font-weight: 500;
 
+    border-color: #E5502E;
+}
+
+.contact-data .btn:hover {
+    background-color: #E5502E;
+    color: #FFFFFF;
+}
+
+/* Map */
+.contactus-map i {
+    font-size: 30px;
+    color: #E5502E;
 }
 
 
-/* Footer Partners */
+/* Partners */
 .partners-container {
     border: 1px solid #E5502E;
 
@@ -321,10 +335,6 @@ body .card-text {
 
 .partners-brand {
     background-color: #FFFFFF;
-}
-
-.partners-brand h4 {
-    border-bottom: solid 1px rgb(255, 0, 0);
 }
 
 
@@ -343,7 +353,7 @@ body .card-text {
 }
 
 
-/* Footer Partners */
+/* Footer  */
 .end-footer {
     border-top: solid 1px rgb(255, 0, 0);
 }
@@ -360,9 +370,12 @@ body .card-text {
 
 .end-footer .list-group-item {
     background-color: #49180D;
-
 }
 
+.list-group h4 {
+    border: 1px solid #FFFFFF;
+
+}
 
 .footer-some img {
     height: 50px;
@@ -376,7 +389,6 @@ body .card-text {
     filter: invert(1);
 
 }
-
 
 
 .end-footer-list h4 {
