@@ -118,9 +118,10 @@ colors
     color: #49180D;
 }
 
-/* Front Splash */
+/* Front Splash background-color: #49180D; */
 .front-container .card {
-    background-color: #49180D;
+
+    background: linear-gradient(to right, #613a30 0%, #49180D 100%);
     box-shadow: 0px 0px 10px #888888;
 }
 
@@ -414,6 +415,18 @@ body .card-text {
     width: 700px;
     border: 2px solid black;
     margin: auto;
+}
+
+.modal .btn {
+    color: #E5502E;
+    font-weight: 500;
+
+    border-color: #E5502E;
+}
+
+.modal .btn:hover {
+    background-color: #E5502E;
+    color: #FFFFFF;
 }
 
 /* gallery */
